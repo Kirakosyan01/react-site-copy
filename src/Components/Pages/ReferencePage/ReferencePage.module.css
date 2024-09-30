@@ -1,0 +1,242 @@
+.reference_page {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  position: relative;
+}
+.on_this_page {
+  position: fixed;
+  right: 0;
+  ul {
+    list-style: none;
+    display: flex;
+    color: #404756;
+    flex-direction: column;
+    font-weight: 500;
+    text-align: left;
+    row-gap: 20px;
+    font-size: 15px;
+    li {
+      width: 280px;
+      padding-left: 8px;
+    }
+    li:first-child {
+      color: #087ea4;
+      background-color: #e6f7ff;
+      border-radius: 18px 0 0 18px;
+      padding: 8px 15px 8px 8px;
+    }
+  }
+  p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+}
+.overview {
+  position: fixed;
+  left: 0;
+  max-height: 90vh;
+  width: 18%;
+  padding-bottom: 150px;
+  overflow-y: scroll;
+}
+.overview_block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  row-gap: 15px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  margin-top: 20px;
+  button {
+    border: none;
+    background-color: #fff;
+    padding: 5px 15px 5px 0;
+    display: flex;
+    justify-content: space-between;
+    div {
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
+  p {
+    font-weight: 400;
+    color: #404756;
+  }
+}
+.api_reference {
+  width: 50%;
+  text-align: left;
+  a:first-child {
+    text-decoration: none;
+    color: #087ea4;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.learn_section {
+  h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 15px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+.react_features {
+  h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    li {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.react_dom__features {
+  h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    li {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.react_rules {
+  h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  ul {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    li {
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}
+.legacy{
+    margin-bottom: 150px;
+    h3 {
+        margin-top: 20px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      ul {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        li {
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+}
+
+
+.home__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 70px;
+    width: 100%;
+    padding-bottom: 110px;
+    padding-top: 200px;
+    h3{
+      font-size: 18px;
+      font-weight: 600;
+      max-width: 500px;
+      color: #23272f;
+      width: 100%;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+  .meta_svg{
+    display: flex;
+  }
+  .meta{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: left;
+    p{font-size: 14px;}
+  }
+  .quick__start{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: left;
+    p{font-size: 14px;}
+  }
+  .apis{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: left;
+    p{font-size: 14px;}
+  }
+  .code_of_conduct{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: left;
+    p{font-size: 14px;}
+  }
+  .more{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    text-align: left;
+    p{font-size: 14px;}
+  }
+  .get_started:hover{
+      background-color: #087da4bd;
+  }

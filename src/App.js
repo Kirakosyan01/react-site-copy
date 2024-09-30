@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { NavLink, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { HomePage } from './Components/Pages/HomePage/HomePage.jsx';
+import { Navigation } from './Components/Navigation/Navigation.jsx';
+import { LearnPage } from './Components/Pages/LearnPage/LearnPage.jsx';
+import { ReferencePage } from './Components/Pages/ReferencePage/ReferencePage.jsx';
+import { CommunityPage } from './Components/Pages/CommunityPage/CommunityPage.jsx';
+import { BlogPage } from './Components/Pages/BlogPage/BlogPage.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Routes>
+        <Route path='/' element={<HomePage />}/>
+        <Route path='/learn' element={<LearnPage />}/>
+        <Route path='/reference' element={<ReferencePage />}/>
+        <Route path='/community' element={<CommunityPage />}/>
+        <Route path='/blog' element={<BlogPage />}/>
+      </Routes>
     </div>
   );
 }
